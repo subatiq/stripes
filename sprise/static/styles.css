@@ -1,0 +1,62 @@
+body {
+        margin: 40px;
+}
+
+.rectangle {
+        display:table-cell;
+        vertical-align: text-top;
+        width: 10px;
+        height: 10px;
+        background-color: black;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.view {
+        background-color: red;
+}
+
+.text {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin: auto;
+}
+
+.vstack {
+        flex-basis: 100%;
+}
+
+.vstack div {
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+
+.hstack {
+        display: flex;
+        align-items: center; 
+}
+.hstack div {
+        margin-left: 5px;
+        margin-right: 5px;
+}
+
+.zstack-wrapper {
+        display: block;
+}
+
+.zstack {
+        /* display: inline-block; */
+}
+
+.zstack-inner {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 1fr; */
+}
+
+.zstack-inner div {
+        /* display: table-cell; */
+        margin: auto;
+        grid-row-start: 1;
+        grid-column-start: 1;
+}
