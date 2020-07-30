@@ -1,6 +1,8 @@
 # Sprise
 Declarative web framework for fast application development. I'm just starting out with this one, so expect lots of features soon!
 
+[Imgur](https://i.imgur.com/o1unkDh.png)
+
 ## How to use
 
 The syntax is inspired by SwiftUI and for now is fully presented in the page_example.py.
