@@ -17,7 +17,7 @@ The syntax is inspired by SwiftUI and for now is fully presented in the page_exa
 
 ### Configure main page
 
-If you want another file to be the entry point to your prototype, then specify it in settings.py:
+If you want another file to be the entry point to your prototype, then specify it in ```settings.py```:
 
 ```main_page = 'your_app_name'```
 
