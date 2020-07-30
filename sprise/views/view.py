@@ -11,11 +11,11 @@ class View:
 		self.width = 'auto'
 		self.height = 'auto'
 
-	def Color(self, hex = "#000000"):
+	def fill(self, hex = "#000000"):
 		self.backgroundColor = hex
 		return self
 
-	def Size(self, width='auto', height='auto'):
+	def size(self, width='auto', height='auto'):
 		self.width, self.height = width, height
 		return self
 

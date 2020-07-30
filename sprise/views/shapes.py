@@ -9,14 +9,13 @@ class Rectangle(View):
 		self._view = open_template('rectangle')	
 		self.color = "#000000"
 		self.borderRadius = "5px"
-
 		self._text = ""
 
-	def CornersRadius(self, radius):
-		self.CornerRadiusSpecify(radius, radius, radius, radius)
+	def cornersRadius(self, radius):
+		self.cornerRadiusSpecify(radius, radius, radius, radius)
 		return self
 
-	def CornerRadiusSpecify(self, lt=5, rt=5, rb=5, lb=5):
+	def cornerRadiusSpecify(self, lt=5, rt=5, rb=5, lb=5):
 		radiuses = " ".join(f"{radius}px" for radius in [lt, rt, rb, lb])
 		self.borderRadius = radiuses
 		return self
@@ -28,11 +27,6 @@ class Rectangle(View):
 		text._view = view
 
 		return text
-	
-	def TextColor(self, hex):
-		self.color = hex
-		
-		return self
 
 	def apply(self, style):
 		return super().apply(style)\

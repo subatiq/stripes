@@ -11,19 +11,19 @@ class Text(View):
 		self._tag = "p"
 		self._caseBackup = self._text
 
-	def Font(self, style):
+	def font(self, style):
 		self._tag = style
 		return self
 
-	def Upper(self):
+	def upper(self):
 		self._text = self._text.upper()
 		return self
 
-	def Lower(self):
+	def lower(self):
 		self._text = self._text.lower()
 		return self
 
-	def Color(self, hex):
+	def foregroundColor(self, hex):
 		self.color = hex
 		return self
 

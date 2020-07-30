@@ -18,7 +18,7 @@ class VStack(Stack):
 		self.marginTop = 0
 
 
-	def Spacing(self, value):
+	def spacing(self, value):
 		self.marginTop = value
 		return self
 
@@ -28,7 +28,7 @@ class HStack(Stack):
 		super().__init__(views, stack_type = 'hstack')
 		self.marginRight = 0
 
-	def Spacing(self, value):
+	def spacing(self, value):
 		self.marginRight = value
 		return self
 
