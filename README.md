@@ -13,7 +13,17 @@ The syntax is inspired by SwiftUI and for now is fully presented in the page_exa
 
 ### Run the example
 
-```python page_example.py```
+```python app.py```
+
+### Configure main page
+
+If you want another file to be the entry point to your prototype, then specify it in settings.py:
+
+```main_page = 'your_app_name'```
+
+Don't forget, that your sprise declarations shoud be wrapped in App and assigned to ```body``` variable. Otherwise flask will not recognise your code.
+
+```body = App(your_main_view)```
 
 ### Have fun
 
