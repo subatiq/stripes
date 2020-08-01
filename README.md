@@ -1,7 +1,7 @@
 # Splice
 Declarative web framework for fast application development. I'm just starting out with this one, so expect lots of features soon!
 
-![preview](https://i.imgur.com/2MMOGQh.png)
+![preview](https://i.imgur.com/qUZULx9.png)
 
 ## How to use
 
