@@ -1,5 +1,4 @@
-![logo](https://github.com/VASemenov/splice/blob/master/docs/logo/0.5x/splice_logo@0.5x.png?raw=true)
-
+# Splice
 
 Declarative web framework for fast application development. I'm just starting out with this one, so expect lots of features soon!
 
