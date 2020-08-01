@@ -9,21 +9,29 @@ The syntax is inspired by SwiftUI and for now is fully presented in the page_exa
 
 ### Install dependencies
 
-```pip install flask```
+```
+pip install flask
+```
 
 ### Run the example
 
-```python app.py```
+```
+python app.py
+```
 
 ### Configure main page
 
 If you want another file to be the entry point to your prototype, then specify it in ```settings.py```:
 
-```main_page = 'your_app_name'```
+```
+main_page = 'your_app_name'
+```
 
 Don't forget, that your splice declarations shoud be wrapped in the ```App``` view and assigned to ```body``` variable. Otherwise flask will not recognize your code.
 
-```body = App(your_main_view)```
+```
+body = App(your_main_view)
+```
 
 ### Have fun
 
