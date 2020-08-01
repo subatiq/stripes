@@ -1,13 +1,11 @@
 # pylint: disable=unused-wildcard-import
-from sprise.wildcard import *
+from splice.wildcard import *
 
-
-sprise_red = "#ed462f"
-sprise_green = "#1aad84"
-
+splice_red = "#ed462f"
+splice_green = "#1aad84"
 
 stacks_tests = VStack(
-        Text("It's sprise")
+        Text("It's splice")
                 .foregroundColor('white')
                 .font('h2')
                 .upper(),
@@ -15,18 +13,18 @@ stacks_tests = VStack(
         for Flask so you don't waste time on building 
         templates. More features are coming!""")
                 .size(width=400)
-                .foregroundColor(sprise_red),
+                .foregroundColor(splice_red),
         ZStack(
                 Rectangle()
                         .fill("#222222")
                         .size(400, 200)
                         .Text("Under this circle")
                         .upper()
-                        .foregroundColor(sprise_red)
+                        .foregroundColor(splice_red)
                         .font('h1'),
                 
                 Rectangle()
-                        .fill(sprise_red)
+                        .fill(splice_red)
                         .cornersRadius(80)
                         .size(82, 82)
                         .Text("ZStack works!")
@@ -36,7 +34,7 @@ stacks_tests = VStack(
         ),
         ZStack(
                 Rectangle()
-                        .fill(sprise_green)
+                        .fill(splice_green)
                         .size(400, 200),
                 VStack(
                         Text("VStacks working like a charm!")
@@ -60,7 +58,6 @@ stacks_tests = VStack(
                 )
                 )
         ),
-
 )
 
 

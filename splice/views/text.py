@@ -1,5 +1,5 @@
-from sprise.views.renderer import get_tag, open_template
-from sprise.views.view import View
+from splice.views.renderer import get_tag, open_template
+from splice.views.view import View
 
 class Text(View):
 	def __init__(self, text):

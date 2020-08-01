@@ -1,7 +1,7 @@
-from sprise.views.renderer import open_template, render_view
-from sprise.views.view import View
-from sprise.views.stacks import ZStack
-from sprise.views.text import Text
+from splice.views.renderer import open_template, render_view
+from splice.views.view import View
+from splice.views.stacks import ZStack
+from splice.views.text import Text
 
 class Rectangle(View):
 	def __init__(self):

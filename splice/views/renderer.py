@@ -20,7 +20,7 @@ def open_template(name):
 def render_app(body):
 	template = open_template('body')
 
-	return template.replace("$sprise$", body)
+	return template.replace("$splice$", body)
 
 
 def render_view(view):

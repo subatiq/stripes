@@ -1,5 +1,5 @@
-from sprise.views.renderer import render_view, open_template
-from sprise.views.view import View
+from splice.views.renderer import render_view, open_template
+from splice.views.view import View
 
 class App(View):
         def __init__(self, *views):
@@ -8,6 +8,6 @@ class App(View):
 
         def render(self):
                 rendered = "\n".join([render_view(view) if type(view) is not str else view for view in self._views])
-                self._view = self._template.replace("$sprise$", rendered)
+                self._view = self._template.replace("$splice$", rendered)
                 return render_view(self)
 
