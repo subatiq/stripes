@@ -1,6 +1,6 @@
 # Splice
 
-Declarative web framework for fast application development. I'm just starting out with this one, so expect lots of features soon!
+Declarative UI builder mixed with flask web framework for fast application development. I'm just starting out with this one, so expect lots of features soon!
 
 ![preview](https://i.imgur.com/qUZULx9.png)
 
