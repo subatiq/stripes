@@ -7,7 +7,7 @@ Declarative UI builder mixed with flask web framework for fast application devel
 
 ## How to use
 
-The syntax is inspired by SwiftUI and for now is fully presented in the page_example.py.
+The syntax is inspired by SwiftUI and for now is fully presented in the `app.py`.
 
 ### Install dependencies
 
