@@ -1,7 +1,9 @@
-# stripes
+# Stripes
 Declarative web framework for fast application development. I'm just starting out with this one, so expect lots of features soon!
 
-![preview](https://i.imgur.com/2MMOGQh.png)
+Declarative UI builder mixed with flask web framework for fast application development. I'm just starting out with this one, so expect lots of features soon!
+
+![preview](https://i.imgur.com/qUZULx9.png)
 
 ## How to use
 
@@ -9,21 +11,29 @@ The syntax is inspired by SwiftUI and for now is fully presented in the page_exa
 
 ### Install dependencies
 
-```pip install flask```
+```
+pip install flask
+```
 
 ### Run the example
 
-```python app.py```
+```
+python app.py
+```
 
 ### Configure main page
 
 If you want another file to be the entry point to your prototype, then specify it in ```settings.py```:
 
-```main_page = 'your_app_name'```
+```
+main_page = 'your_app_name'
+```
 
 Don't forget, that your stripes declarations shoud be wrapped in the ```App``` view and assigned to ```body``` variable. Otherwise flask will not recognize your code.
 
-```body = App(your_main_view)```
+```
+body = App(your_main_view)
+```
 
 ### Have fun
 
