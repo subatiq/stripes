@@ -20,4 +20,4 @@ class View:
 		return self
 
 	def apply(self, style):
-		return self._view.replace("$splice-style$", style)
+		return self._view.replace("$stripes-style$", style)

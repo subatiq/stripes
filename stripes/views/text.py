@@ -1,5 +1,5 @@
-from splice.views.renderer import get_tag, open_template
-from splice.views.view import View
+from stripes.views.renderer import get_tag, open_template
+from stripes.views.view import View
 
 class Text(View):
 	def __init__(self, text):

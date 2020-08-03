@@ -1,4 +1,4 @@
-# splice
+# stripes
 Declarative web framework for fast application development. I'm just starting out with this one, so expect lots of features soon!
 
 ![preview](https://i.imgur.com/2MMOGQh.png)
@@ -21,7 +21,7 @@ If you want another file to be the entry point to your prototype, then specify i
 
 ```main_page = 'your_app_name'```
 
-Don't forget, that your splice declarations shoud be wrapped in the ```App``` view and assigned to ```body``` variable. Otherwise flask will not recognize your code.
+Don't forget, that your stripes declarations shoud be wrapped in the ```App``` view and assigned to ```body``` variable. Otherwise flask will not recognize your code.
 
 ```body = App(your_main_view)```
 

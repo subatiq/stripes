@@ -1,7 +1,7 @@
-from splice.views.renderer import open_template, render_view
-from splice.views.view import View
-from splice.views.stacks import ZStack
-from splice.views.text import Text
+from stripes.views.renderer import open_template, render_view
+from stripes.views.view import View
+from stripes.views.stacks import ZStack
+from stripes.views.text import Text
 
 class Rectangle(View):
 	def __init__(self):

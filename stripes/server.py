@@ -1,5 +1,5 @@
 from flask import Flask
-from splice.views.renderer import render_app
+from stripes.views.renderer import render_app
 
 try:
 	from settings import main_page

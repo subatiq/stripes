@@ -1,11 +1,11 @@
 # pylint: disable=unused-wildcard-import
-from splice.wildcard import *
+from stripes.wildcard import *
 
-splice_red = "#ed462f"
-splice_green = "#1aad84"
+stripes_red = "#ed462f"
+stripes_green = "#1aad84"
 
 stacks_tests = VStack(
-        Text("It's splice")
+        Text("It's stripes")
                 .foregroundColor('white')
                 .font('h2')
                 .upper(),
@@ -13,18 +13,18 @@ stacks_tests = VStack(
         for Flask so you don't waste time on building 
         templates. More features are coming!""")
                 .size(width=400)
-                .foregroundColor(splice_red),
+                .foregroundColor(stripes_red),
         ZStack(
                 Rectangle()
                         .fill("#222222")
                         .size(400, 200)
                         .Text("Under this circle")
                         .upper()
-                        .foregroundColor(splice_red)
+                        .foregroundColor(stripes_red)
                         .font('h1'),
                 
                 Rectangle()
-                        .fill(splice_red)
+                        .fill(stripes_red)
                         .cornersRadius(80)
                         .size(82, 82)
                         .Text("ZStack works!")
@@ -34,7 +34,7 @@ stacks_tests = VStack(
         ),
         ZStack(
                 Rectangle()
-                        .fill(splice_green)
+                        .fill(stripes_green)
                         .size(400, 200),
                 VStack(
                         Text("VStacks working like a charm!")

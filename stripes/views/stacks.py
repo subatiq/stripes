@@ -1,5 +1,5 @@
-from splice.views.renderer import open_template, render_view
-from splice.views.view import View
+from stripes.views.renderer import open_template, render_view
+from stripes.views.view import View
 
 
 class Stack(View):
@@ -8,7 +8,7 @@ class Stack(View):
 		self._body= "\n".join([render_view(view) if not type(view) is str else view for view in views[0]])
 
 	def apply(self, style):
-		return self._view.replace("$splice-style$", style).replace("$body$", self._body) 
+		return self._view.replace("$stripes-style$", style).replace("$body$", self._body) 
 
 
 class VStack(Stack):
